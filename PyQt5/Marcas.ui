@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>218</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Marcas</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 170, 255);</string>
+  </property>
+  <widget class="QLabel" name="Titulo">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Segoe Print&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#0055ff;&quot;&gt;Selecciona una marca&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Opcion_Marcas">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>191</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Microsoft New Tai Lue&quot;;
+background-color: rgb(255, 255, 255);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Samsung</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Huawei</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Xiaomi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Apple</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LG</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lenovo</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_Lenguaje">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>130</y>
+     <width>301</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Microsoft New Tai Lue&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Boton_Aceptar">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
